@@ -1,2 +1,6 @@
 /postgres-keycloak-data
+*/.vs
+*/bin
+*/obj
+*.user
 2024__yandex-architecture-sso.code-workspace
