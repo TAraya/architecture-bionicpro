@@ -31,7 +31,7 @@ services:
       - keycloak_db
   reports-api:
     build:
-      context: ./api
+      context: ./API
       dockerfile: Dockerfile
     environment:
       REPORTS_API_KEYCLOAK_AUTHORITY: http://keycloak:8080/realms/reports-realm
